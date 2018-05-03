@@ -1,3 +1,5 @@
+// Contas reaproveitáveis
+
 var todosJuros = document.querySelectorAll('.juros');
 
 function calcularJuros (money, fee, months) {
@@ -5,7 +7,7 @@ function calcularJuros (money, fee, months) {
     return res;
 }
 
-
+// Conta dos juros
 
 for (var i = 0; i < todosJuros.length; i++) {
 
@@ -25,6 +27,8 @@ for (var i = 0; i < todosJuros.length; i++) {
 
 
 }
+
+// Botão adicionar
 
 var botaoAdicionar = document.querySelector('#adicionar-juros');
 botaoAdicionar.addEventListener('click', function(event) {
@@ -55,4 +59,19 @@ botaoAdicionar.addEventListener('click', function(event) {
     tabela.appendChild(jurosNovos);
 
 
-})
+});
+
+// Botão limpar
+
+var botaoLimpar = document.querySelector('#limpar-form');
+botaoLimpar.addEventListener('mouseover', function(event) {
+    event.preventDefault();
+
+    var dinheiroLimpar = document.querySelector('#dinheiro');
+    var taxaLimpar = document.querySelector('#taxa');
+    var mesesLimpar = document.querySelector('#tempo');
+    dinheiroLimpar.value = "";
+    taxaLimpar.value = "";
+    mesesLimpar.value = "";
+
+});
