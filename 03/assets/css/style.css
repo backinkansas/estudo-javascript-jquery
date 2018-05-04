@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: rgb(144, 144, 144);
+    padding: 5px;
+}
+
+nav {
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white
+}
+
+ul {
+    display: flex;
+    margin: 0 5px;
+}
+
+ul li {
+    padding: 5px;
+    list-style: none;
+}
+
+#logo {
+    width: 100px;
+}
+
+.menu2 {
+    width: 9%;
+    height: 45px;
+    background-color: rgb(92, 92, 92);
+    display: none;
+    position: absolute;
+    text-align: right;
+    right: 1px;
+}
+
+header {
+    background-image: url(../img/foto.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: rgb(80, 79, 79);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sobre,
+.formulario,
+#extra {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(80, 79, 79);
+    padding: 5px;
+}
+
+button,
+#subir {
+    background-color: rgb(80, 79, 79);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+}
+
+#enviar {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(80, 79, 79);
+}
+
+#invisivel {
+    display: none;
+}

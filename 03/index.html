@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{reprograma} - 5ª turma</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+<body>
+    <nav id="top">
+        <img src="./assets/img/logo.png" alt="Logo da reprograma" id="logo">
+        <ul>
+            <li>
+                <div class="menu1">Home</div>
+            </li>
+            <li>
+                <div class="menu1">
+                    <a href="#extra" id="sobre">Sobre</a>
+                </div>
+            </li>
+            <li id="perfil">
+                <div class="menu1">Perfil</div>
+                <div class="menu2">
+                    <a href="">Login</a> 
+                    <br> Cadastre-se
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Aplicação de conceitos jQuery</h1>
+    </header>
+
+    <main>
+        <section class="sobre">
+            <h2>Sobre</h2>
+            <button id="mostrarP">Clique em mim</button>
+            <p id="invisivel" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero excepturi sequi qui! Tempore minus atque et libero eaque quis! Autem nemo odio laudantium modi harum alias expedita est. Ullam, harum.</p>
+        </section>
+
+        <section class="formulario">
+            <h2>Valide este formulário</h2>
+            <form action="">
+                <input id="nome" type="text" name="nome" placeholder="Seu nome">
+                <input id="idade" type="text" name="idade" placeholder="Sua idade">
+                <input id="enviar" type="submit" value="Enviar os dados" disabled>
+            </form>
+        </section>
+
+        <section id="extra">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem beatae ad consequuntur omnis reiciendis ipsum ea repudiandae, neque cum earum eveniet, doloribus a rem architecto quam aspernatur modi, in ipsa.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, ipsum? Adipisci cumque ut laudantium facere quae quibusdam itaque asperiores distinctio blanditiis aperiam placeat, debitis nisi vero sed. Sint, optio officia!</p>
+            <!-- <a href="#top" id="subir">Subir</a> -->
+            <button href="#top">Subir</button>
+
+            <p id="clock"></p>
+        </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.countdown.min.js"></script>
+    
+</body>
+</html>
